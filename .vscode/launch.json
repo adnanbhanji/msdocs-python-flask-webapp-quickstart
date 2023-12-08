@@ -10,7 +10,7 @@
       "python": {
         "pathMappings": [
           {
-            "localRoot": ".",
+            "localRoot": "${workspaceFolder}",
             "remoteRoot": "/app"
           }
         ],
