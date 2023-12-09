@@ -1,11 +1,9 @@
 {
-  "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Flask App",
+      "name": "Docker: Python - Flask",
       "type": "docker",
       "request": "launch",
-
       "preLaunchTask": "docker-run: debug",
       "python": {
         "pathMappings": [
@@ -15,11 +13,6 @@
           }
         ],
         "projectType": "flask"
-      },
-      "dockerServerReadyAction": {
-        "action": "openExternally",
-        "pattern": "Running on (http?://\\S+|[0-9]+)",
-        "uriFormat": "%s://localhost:%s/"
       }
     }
   ]
